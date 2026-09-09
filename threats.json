@@ -1,0 +1,374 @@
+{
+  "status": "active",
+  "last_updated": "2026-09-09T19:25:02Z",
+  "threat_summary": {
+    "defcon_level": 1,
+    "threat_index": 100,
+    "total_flares": 4,
+    "critical_flares": 1,
+    "total_neos_tracked": 4,
+    "hazardous_neos": 3,
+    "active_storms": 2,
+    "cme_events": 2
+  },
+  "analytics": {
+    "solar_flares": [
+      {
+        "id": "2026-09-08T14:20:00-FLR-001",
+        "classType": "X2.5",
+        "hazard": "CRITICAL",
+        "severity_score": 250.0,
+        "beginTime": "2026-09-08T14:20Z",
+        "peakTime": "2026-09-08T14:45Z",
+        "sourceLocation": "N14E45",
+        "activeRegionNum": 14528,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48500/-1"
+      },
+      {
+        "id": "2026-09-07T09:12:00-FLR-001",
+        "classType": "M8.1",
+        "hazard": "HIGH",
+        "severity_score": 81.0,
+        "beginTime": "2026-09-07T09:12Z",
+        "peakTime": "2026-09-07T09:30Z",
+        "sourceLocation": "S08W12",
+        "activeRegionNum": 14525,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48492/-1"
+      },
+      {
+        "id": "2026-09-05T18:05:00-FLR-001",
+        "classType": "M4.7",
+        "hazard": "HIGH",
+        "severity_score": 47.0,
+        "beginTime": "2026-09-05T18:05Z",
+        "peakTime": "2026-09-05T18:22Z",
+        "sourceLocation": "N05E18",
+        "activeRegionNum": 14524,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48480/-1"
+      },
+      {
+        "id": "2026-09-03T11:40:00-FLR-001",
+        "classType": "C9.3",
+        "hazard": "MODERATE",
+        "severity_score": 9.3,
+        "beginTime": "2026-09-03T11:40Z",
+        "peakTime": "2026-09-03T12:01Z",
+        "sourceLocation": "S12W55",
+        "activeRegionNum": 14520,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48460/-1"
+      }
+    ],
+    "near_earth_objects": [
+      {
+        "name": "(2010 PK9)",
+        "id": "3542519",
+        "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3542519",
+        "is_potentially_hazardous": true,
+        "estimated_diameter_km_max": 0.31,
+        "estimated_diameter_km_min": 0.14,
+        "miss_distance_lunar": 8.95,
+        "miss_distance_km": 3441000.0,
+        "vel_km_s": 16.82,
+        "approach_date": "2026-Sep-18 08:12",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "name": "99942 Apophis (2004 MN4)",
+        "id": "2099942",
+        "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2099942",
+        "is_potentially_hazardous": true,
+        "estimated_diameter_km_max": 0.45,
+        "estimated_diameter_km_min": 0.34,
+        "miss_distance_lunar": 0.09,
+        "miss_distance_km": 34600.0,
+        "vel_km_s": 30.73,
+        "approach_date": "2026-Sep-22 21:05",
+        "threat_level": "CRITICAL"
+      },
+      {
+        "name": "433 Eros (A898 PA)",
+        "id": "2000433",
+        "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2000433",
+        "is_potentially_hazardous": true,
+        "estimated_diameter_km_max": 37.66,
+        "estimated_diameter_km_min": 16.84,
+        "miss_distance_lunar": 18.42,
+        "miss_distance_km": 7082300.0,
+        "vel_km_s": 5.56,
+        "approach_date": "2026-Sep-15 14:20",
+        "threat_level": "HIGH"
+      },
+      {
+        "name": "(2016 RF1)",
+        "id": "3751288",
+        "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3751288",
+        "is_potentially_hazardous": false,
+        "estimated_diameter_km_max": 0.11,
+        "estimated_diameter_km_min": 0.05,
+        "miss_distance_lunar": 12.3,
+        "miss_distance_km": 4728000.0,
+        "vel_km_s": 11.2,
+        "approach_date": "2026-Sep-10 03:45",
+        "threat_level": "MODERATE"
+      }
+    ],
+    "geomagnetic_storms": [
+      {
+        "id": "2026-09-08T06:00:00-GST-001",
+        "startTime": "2026-09-08T06:00Z",
+        "max_kp": 7.33,
+        "kp_count": 3,
+        "threat_level": "HIGH",
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/GST/29880/-1"
+      },
+      {
+        "id": "2026-09-02T18:00:00-GST-001",
+        "startTime": "2026-09-02T18:00Z",
+        "max_kp": 5.67,
+        "kp_count": 1,
+        "threat_level": "MODERATE",
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/GST/29850/-1"
+      }
+    ],
+    "cme_events": [
+      {
+        "id": "2026-09-08T15:00:00-CME-001",
+        "startTime": "2026-09-08T15:00Z",
+        "instruments": [
+          "SOHO: LASCO/C3",
+          "STEREO A: SECCHI/COR2"
+        ],
+        "speed_km_s": 1420.5,
+        "note": "Halo CME detected following X2.5 solar flare. Earth-directed component probable."
+      },
+      {
+        "id": "2026-09-07T10:15:00-CME-001",
+        "startTime": "2026-09-07T10:15Z",
+        "instruments": [
+          "SOHO: LASCO/C2"
+        ],
+        "speed_km_s": 850.0,
+        "note": "Narrow ejection off the northeast limb."
+      }
+    ]
+  },
+  "feeds": {
+    "flr": [
+      {
+        "flrID": "2026-09-08T14:20:00-FLR-001",
+        "beginTime": "2026-09-08T14:20Z",
+        "peakTime": "2026-09-08T14:45Z",
+        "endTime": "2026-09-08T15:10Z",
+        "classType": "X2.5",
+        "sourceLocation": "N14E45",
+        "activeRegionNum": 14528,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48500/-1"
+      },
+      {
+        "flrID": "2026-09-07T09:12:00-FLR-001",
+        "beginTime": "2026-09-07T09:12Z",
+        "peakTime": "2026-09-07T09:30Z",
+        "endTime": "2026-09-07T09:42Z",
+        "classType": "M8.1",
+        "sourceLocation": "S08W12",
+        "activeRegionNum": 14525,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48492/-1"
+      },
+      {
+        "flrID": "2026-09-05T18:05:00-FLR-001",
+        "beginTime": "2026-09-05T18:05Z",
+        "peakTime": "2026-09-05T18:22Z",
+        "endTime": "2026-09-05T18:35Z",
+        "classType": "M4.7",
+        "sourceLocation": "N05E18",
+        "activeRegionNum": 14524,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48480/-1"
+      },
+      {
+        "flrID": "2026-09-03T11:40:00-FLR-001",
+        "beginTime": "2026-09-03T11:40Z",
+        "peakTime": "2026-09-03T12:01Z",
+        "endTime": "2026-09-03T12:15Z",
+        "classType": "C9.3",
+        "sourceLocation": "S12W55",
+        "activeRegionNum": 14520,
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/48460/-1"
+      }
+    ],
+    "gst": [
+      {
+        "gstID": "2026-09-08T06:00:00-GST-001",
+        "startTime": "2026-09-08T06:00Z",
+        "allKpIndex": [
+          {
+            "observedTime": "2026-09-08T09:00Z",
+            "kpIndex": 7.33,
+            "source": "NOAA"
+          },
+          {
+            "observedTime": "2026-09-08T12:00Z",
+            "kpIndex": 6.67,
+            "source": "NOAA"
+          },
+          {
+            "observedTime": "2026-09-08T15:00Z",
+            "kpIndex": 5.0,
+            "source": "NOAA"
+          }
+        ],
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/GST/29880/-1"
+      },
+      {
+        "gstID": "2026-09-02T18:00:00-GST-001",
+        "startTime": "2026-09-02T18:00Z",
+        "allKpIndex": [
+          {
+            "observedTime": "2026-09-02T21:00Z",
+            "kpIndex": 5.67,
+            "source": "NOAA"
+          }
+        ],
+        "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/GST/29850/-1"
+      }
+    ],
+    "cme": [
+      {
+        "activityID": "2026-09-08T15:00:00-CME-001",
+        "startTime": "2026-09-08T15:00Z",
+        "instruments": [
+          {
+            "displayName": "SOHO: LASCO/C3"
+          },
+          {
+            "displayName": "STEREO A: SECCHI/COR2"
+          }
+        ],
+        "cmeAnalyses": [
+          {
+            "speed": 1420.5
+          }
+        ],
+        "note": "Halo CME detected following X2.5 solar flare. Earth-directed component probable."
+      },
+      {
+        "activityID": "2026-09-07T10:15:00-CME-001",
+        "startTime": "2026-09-07T10:15Z",
+        "instruments": [
+          {
+            "displayName": "SOHO: LASCO/C2"
+          }
+        ],
+        "cmeAnalyses": [
+          {
+            "speed": 850.0
+          }
+        ],
+        "note": "Narrow ejection off the northeast limb."
+      }
+    ],
+    "neo": {
+      "near_earth_objects": [
+        {
+          "id": "2099942",
+          "name": "99942 Apophis (2004 MN4)",
+          "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2099942",
+          "is_potentially_hazardous_asteroid": true,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 0.34,
+              "estimated_diameter_max": 0.45
+            }
+          },
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-09-22",
+              "close_approach_date_full": "2026-Sep-22 21:05",
+              "relative_velocity": {
+                "kilometers_per_second": "30.73"
+              },
+              "miss_distance": {
+                "lunar": "0.09",
+                "kilometers": "34600"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3542519",
+          "name": "(2010 PK9)",
+          "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3542519",
+          "is_potentially_hazardous_asteroid": true,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 0.14,
+              "estimated_diameter_max": 0.31
+            }
+          },
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-09-18",
+              "close_approach_date_full": "2026-Sep-18 08:12",
+              "relative_velocity": {
+                "kilometers_per_second": "16.82"
+              },
+              "miss_distance": {
+                "lunar": "8.95",
+                "kilometers": "3441000"
+              }
+            }
+          ]
+        },
+        {
+          "id": "2000433",
+          "name": "433 Eros (A898 PA)",
+          "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=2000433",
+          "is_potentially_hazardous_asteroid": true,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 16.84,
+              "estimated_diameter_max": 37.66
+            }
+          },
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-09-15",
+              "close_approach_date_full": "2026-Sep-15 14:20",
+              "relative_velocity": {
+                "kilometers_per_second": "5.56"
+              },
+              "miss_distance": {
+                "lunar": "18.42",
+                "kilometers": "7082300"
+              }
+            }
+          ]
+        },
+        {
+          "id": "3751288",
+          "name": "(2016 RF1)",
+          "nasa_jpl_url": "http://ssd.jpl.nasa.gov/sbdb.cgi?sstr=3751288",
+          "is_potentially_hazardous_asteroid": false,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 0.05,
+              "estimated_diameter_max": 0.11
+            }
+          },
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-09-10",
+              "close_approach_date_full": "2026-Sep-10 03:45",
+              "relative_velocity": {
+                "kilometers_per_second": "11.20"
+              },
+              "miss_distance": {
+                "lunar": "12.30",
+                "kilometers": "4728000"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
