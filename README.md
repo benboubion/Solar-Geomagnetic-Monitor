@@ -2,7 +2,8 @@
 
 A real-time telemetry ingestion engine, threat analytics scoring system, and interactive glassmorphic Mission Control dashboard powered by official NASA APIs (DONKI & NeoWs).
 
-![Dashboard Interface](dashboard.html)
+<img width="1822" height="880" alt="Screenshot (668)" src="https://github.com/user-attachments/assets/3de41384-896d-4ee3-8112-a32974eb8d2e" />
+
 
 ---
 
