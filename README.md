@@ -24,7 +24,7 @@ A real-time telemetry ingestion engine, threat analytics scoring system, and int
 Ensure you have Python 3.8+ installed:
 
 ```bash
-git clone https://github.com/https://github.com/benboubion/Solar-Geomagnetic-Monitor.git
+git clone https://github.com/benboubion/Solar-Geomagnetic-Monitor.git
 cd Solar-Geomagnetic-Monitor
 pip install -r requirements.txt
 ```
